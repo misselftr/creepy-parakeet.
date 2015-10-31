@@ -40,7 +40,7 @@ class Student {
         return GENDER[gender]
         }
     }
-
+println("Hey!")
 
 var biri = Student(fullName:"Denizer", studentAge:55, gender:1)
 biri.about()
