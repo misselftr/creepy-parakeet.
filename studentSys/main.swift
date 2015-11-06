@@ -116,13 +116,13 @@ public extension Double {
 for i in 1..<k
 {
     
-    xkoor = Double.random(min: 1.00, max: 5.00)
+    xkoor = Double.random(min: 1.00, max: 10.00)
    // println("\(xkoor) x noktanın uzaklığıdır.")
-    ykoor = Double.random(min: 1.00, max: 5.00)
+    ykoor = Double.random(min: 1.00, max: 10.00)
   //  println("\(ykoor) y noktanın uzaklığıdır.")
     pisagor = sqrt((xkoor*xkoor)+(ykoor*ykoor))
    // println("\(pisagor) noktanın uzaklığıdır.")
-    if pisagor < 5
+    if pisagor < 10
     {
         inCount++
     }
